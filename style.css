@@ -9,3 +9,10 @@ li a p {
 li a p:hover {
     text-decoration: underline chocolate;
 }
+
+.carousel-item {
+    height: 600px !important;
+    width: 100% !important;
+    text-align: center;
+
+}
