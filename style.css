@@ -1,0 +1,11 @@
+body {
+    background-color: gray;
+}
+
+li a p {
+    color: blue;
+}
+
+li a p:hover {
+    text-decoration: underline chocolate;
+}
