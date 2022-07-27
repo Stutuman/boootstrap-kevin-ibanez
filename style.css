@@ -1,9 +1,9 @@
 body {
-    background-color: gray;
+    background-color: rgb(31, 40, 41);
 }
 
 li a p {
-    color: blue;
+    color: rgb(36, 36, 212);
 }
 
 li a p:hover {
@@ -11,8 +11,24 @@ li a p:hover {
 }
 
 .carousel-item {
-    height: 600px !important;
+    height: 620px !important;
     width: 100% !important;
     text-align: center;
+}
 
+.footer {
+    background-color: rgb(31, 40, 41);
+    color: rgb(23, 23, 37);
+    padding: 0%;
+}
+
+.pie {
+    display: inline-flex;
+    color: blue;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-link {
+    color: rgb(36, 36, 212);
 }
