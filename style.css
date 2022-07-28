@@ -16,17 +16,70 @@ li a p:hover {
     text-align: center;
 }
 
+/* grid */
+.wrapper {
+    display: grid;
+    justify-content: center;
+    grid-gap: 0px;
+    grid-template-columns: 500px 700px;
+    grid-template-rows: 400px 400px;
+    background-color: rgb(31, 40, 41);
+    color: #444;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(31, 40, 41);
+    color: rgb(255, 71, 71);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.box .a {
+    grid-column: 1;
+    grid-row: 1;
+    height: 300px;
+}
+
+
+.b {
+    grid-column: 2;
+    grid-row: 2 / 1;
+    height: 300px;
+
+}
+
+.c {
+    grid-column: 2;
+    grid-row: 2;
+    height: 300px;
+}
+
+.d {
+    grid-column: 3;
+    grid-row: 2;
+    height: 300px;
+}
+
+.wrapper img {
+    height: 300px;
+    width: 500px;
+}
+
+.registro {
+    color: rgb(48, 30, 3);
+}
+
 /* footer */
-.footer {
+footer {
     background-color: rgb(31, 40, 41);
     border: black;
-    border-radius: 10px;
-    color: rgb(23, 23, 37);
-    padding: 0%;
+    color: rgb(164, 164, 165);
+    /* height: 150px; */
+    /* padding: 0%; */
     text-align: center;
-    position: absolute;
-    left: 500px;
-    bottom: 0%;
 }
 
 .pie {
@@ -36,13 +89,21 @@ li a p:hover {
     padding: 10px;
 }
 
+.pie a {
+    text-decoration: none;
+}
+
 .pie i {
-    color: brown;
+    color: rgb(173, 160, 160);
+    font-size: 25px;
+    text-decoration: none;
 
 }
 
 .derechos {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
 }
 
 .derechos p {
@@ -52,6 +113,12 @@ li a p:hover {
 .nav-link {
     color: rgb(36, 36, 212);
 }
+
+.pagina {
+    display: flex;
+    justify-content: center;
+}
+
 
 /* carta */
 .carta {
