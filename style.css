@@ -17,7 +17,7 @@ li a p:hover {
 }
 
 .footer {
-    background-color: rgb(31, 40, 41);
+    background-color: rgb(35, 71, 75);
     color: rgb(23, 23, 37);
     padding: 0%;
 }
@@ -31,4 +31,18 @@ li a p:hover {
 
 .nav-link {
     color: rgb(36, 36, 212);
+}
+
+/* carta */
+.carta {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 15px 15px 15px;
+
+}
+
+@media screen and (max-width:720px) {
+    .carta {
+        display: block;
+    }
 }
